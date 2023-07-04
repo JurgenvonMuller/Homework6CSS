@@ -1,77 +1,46 @@
 * {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   font-family: 'Roboto', sans-serif;
+  font-style:normal;
+  color: #000; 
+  /*word-wrap: break-word;*/
 }
 .wrapper {
-  /*display: inline-block;*/
+  box-sizing: border-box;
+  border: 1px solid gray;
+  width: 900px;
+  height: 500px;
+  font-size: 0px;
+  
 }
   .wrapper .card {
     display: inline-block;
-    /*position: relative;*/
     width: 200px; 
     height: 226px;
     background-color: rgb(237, 240, 238); 
     text-align: center;
-    margin: 0px 35px 0px 35px;
-    
+    margin:30px 0px 0px 30px;
   }
   .wrapper .card img {
     width: 130px; 
     height: 130px;  
     background: #E0E0E0;
-    
+    margin-top: 0px;
   }
-  /*.title{
-    position: absolute;
-    width: 200px; 
-    left: 0px; 
-    top: 140px;  
-    text-align: center; 
-    color: black; 
-    font-size: 18px; 
-    font-family: Roboto; 
+  .wrapper .card h3 {
+    width: 200px;
+    height: 22px;
+    font-size: 18px;
     font-weight: 700; 
-    line-height: 22px; 
-    word-wrap: break-word
+    line-height: 22px;
+    margin-top: 10px;
   }
-  .description {
-    position: absolute;
-    width: 200px; 
-    left: 0px; 
-    top: 172px;  
-    text-align: center; 
-    color: rgb(202, 15, 15); 
+  .wrapper .card p {
+    width: 200px;
+    height: 36px;
     font-size: 14px; 
-    font-family: Roboto; 
     font-weight: 400; 
     line-height: 18px; 
-    word-wrap: break-word;
+    margin-bottom: 18px;
+    margin-top: 10px;
   }
-  .image {
-    
-    width: 130px; 
-    height: 130px; 
-    left: 35px; 
-    top: 0px;  
-    background: #C4C4C4;
-  }
-  .imagename {
-    position: absolute;
-    left: 81px; 
-    top: 56px;  
-    text-align: center; 
-    color: white; 
-    font-size: 14px; 
-    font-family: Roboto; 
-    font-weight: 400; 
-    line-height: 18px; 
-    word-wrap: break-word;
-  }
-    
-  margin-right: 102px;
-  margin-left: 102px;
-  margin-top: 64px;
-  margin-block-end: 102px;*/
-
-  
-  
